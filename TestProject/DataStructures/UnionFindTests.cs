@@ -18,7 +18,7 @@ namespace TestProject.DataStructures
             {
                 Assert.AreEqual(i, uf.Find(i));
                 Assert.AreEqual(1, uf.UnionSize(i));
-            }
+            } 
         }
 
         [TestMethod]
